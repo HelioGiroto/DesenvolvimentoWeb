@@ -1,0 +1,35 @@
+            /*
+                .cabecalho{
+                    background: yellowgreen;
+                    color: brown;
+                }
+
+                .rodape{
+                    position: fixed;
+                    bottom: 0px;
+                    background: black;
+                    color: white;
+                    width: 100vw;
+                    padding: 7px;
+                }
+            */
+
+header{
+    /* abaixo tem que ser relative. Teste como absolute e veja a div .central como "sobe" */
+    position: relative;
+    top: 0px;
+    width: 100vw;
+    background: yellowgreen;
+    color: brown;
+}
+
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background: black;
+    color: white;
+    width: 100vw;
+    padding: 7px;
+}

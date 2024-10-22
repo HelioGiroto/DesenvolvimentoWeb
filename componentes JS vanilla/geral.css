@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.central{
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+}
