@@ -1,0 +1,42 @@
+formato do comando que converte de md para pdf com fonte diferente:
+
+	pandoc --from markdown fzimport.com.md --pdf-engine=lualatex -V mainfont:'Liberation Serif' -o out.pdf
+
+
+
+INSTALADO:
+
+	??? 	423  sudo tlmgr install luaotfload
+		424  sudo apt-get install texlive-luatex
+
+
+FONTES:
+	https://keep.google.com/#home
+	file:///home/mkt/1-Projetos/Sites/comunicado-responsaveis-sites.md
+	https://chromewebstore.google.com/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh
+	https://github.com/HelioGiroto/Brincando-com-o-Terminal
+	https://duckduckgo.com/?q=pandoc+change+a+font&ia=web
+	https://pandoc.org/MANUAL.html
+	https://learnbyexample.github.io/customizing-pandoc/
+	https://tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc
+	https://tex.stackexchange.com/questions/378488/font-tu-lmr-m-n-10-lmroman10-regulartlig-at-10pt-not-loadable
+
+
+
+
+
+= CENTRALIZAR IMAGEM - PANDOC
+	https://stackoverflow.com/questions/54701123/image-centering-with-pandoc-markdown
+	https://stackoverflow.com/questions/54701123/image-centering-with-pandoc-markdown
+	https://stackoverflow.com/questions/49482221/pandoc-markdown-to-pdf-image-position
+	https://superuser.com/questions/796565/correctly-sizing-png-images-in-markdown-with-pandoc-for-html-pdf-docx
+	https://mostlymaths.net/2021/06/centering.html/
+
+
+
+
+
+
+
+
+

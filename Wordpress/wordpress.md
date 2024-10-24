@@ -667,6 +667,8 @@ Ver tb:
 
 [Criar contas de email na Hostgator](#email)
 
+[Como alterar o domíno principal da hospedagem (Hostgator - plano M)](#dominioPrincipal)
+
 [Instalação de WP e ativação de SSL na Locaweb](#locaweb)
 
 [Instalação de Wordpress na KingHost](#kinghost)
@@ -879,21 +881,32 @@ Fontes:
     https://cliente.hostgator.com.br/emails-list/criar-primeira-conta-e-mail/site.com.br
 
 
-
 ### Configurar o Titan Gratuito e criar emails:
 https://suporte.hostgator.com.br/hc/pt-br/articles/115000742534-Como-criar-uma-conta-de-e-mail-cPanel
 
 https://suporte.hostgator.com.br/hc/pt-br/articles/360002631274-Como-criar-uma-conta-de-e-mail
  
 
-
-
-
 ### Mudar a senha dos emails: 
  - https://cliente.hostgator.com.br/emails-list/gerenciar/site.com.br
  - Contas de email
  - 3 pontinhos
  - Redefinir senha
+
+<span class='direita'>[Voltar ao índice - Hospedagem](#hospedagem)</span>
+
+
+## Como alterar o domíno principal da hospedagem (plano M)<span id='dominioPrincipal'></span>
+(É preciso que o domínio que se tornará em principal **não** esteja na mesma hospedagem, caso contrário, seguir o passo-a-passo abaixo a partir do passo 2)
+
+
+1. Abrir chamado através do Painel de Controle dos Clientes.
+(https://suporte.hostgator.com.br/hc/pt-br/articles/30808385945875-Como-alterar-o-dom%C3%ADnio-principal-da-hospedagem)
+2. Fazer backup de todo o site e banco de dados de emails
+(https://suporte.hostgator.com.br/hc/pt-br/articles/30813484137491-Como-fazer-um-backup-completo)
+3. Remover o domínio que será o principal
+(https://suporte.hostgator.com.br/hc/pt-br/articles/30817012800787-Como-remover-dom%C3%ADnios-e-subdom%C3%ADnios-da-hospedagem)
+
 
 <span class='direita'>[Voltar ao índice - Hospedagem](#hospedagem)</span>
 
@@ -953,6 +966,8 @@ Caso tenha vencido o SSL do 1o. ano gratuito, se pode contratar um plano pago ou
  Fonte: https://www.locaweb.com.br/ajuda/wiki/como-emitir-o-certificado-lets-encrypt-hospedagem-de-sites/
 
 
+<span class='direita'>[Voltar ao índice - Hospedagem](#hospedagem)</span>
+
 ## Instalação de Wordpress na KingHost <span id='kinghost'></span>
 
 **Para instalar o wordpress no KingHost:**
@@ -987,4 +1002,6 @@ https://king.host/blog/tutoriais/como-instalar-o-wordpress/
 - Procurar opção com ícones: "Configuração PHP" - entrar
 - Em versão PHP, escolher a versão mínima necessária que requer o Elementor
 
+
+<span class='direita'>[Voltar ao índice - Hospedagem](#hospedagem)</span>
 
